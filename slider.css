@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.imgWrapper {
+    position: absolute;
+}
+
+.imgWrapper li {
+    float: left;
+}
+
+.showArea {
+    border: 1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+}
+
+.showArea .btn div {
+    width: 20px;
+    height: 40px;
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.showArea:hover .btn div {
+    display: block;
+}
+
+.showArea .btn .left {
+    left: 0px;
+}
+
+.showArea .btn .right {
+    right: 0px;
+}
+
+.showArea .spot {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+}
+
+.showArea .spot li {
+    float: left;
+    margin-left: 10px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
